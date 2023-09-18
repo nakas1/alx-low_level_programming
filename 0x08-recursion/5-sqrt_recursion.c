@@ -1,5 +1,7 @@
 #include "main.h"
 
+int _find_sqrt(int n, int guess);
+
 /**
  * _sqrt_recursion - Returns the natural square root of a number
  * @n: The number for which to find the square root
@@ -32,4 +34,4 @@ int _find_sqrt(int n, int guess)
 		return (-1);
 	else
 		return (_find_sqrt(n, guess + 1));
-
+}
